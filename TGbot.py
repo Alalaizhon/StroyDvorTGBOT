@@ -9,12 +9,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Токен бота телеграмма
-TOKEN = '8046616176:AAFpqPHYmQ20j0o2q2UqaIcjWrMg_rfYlVg'
+
 
 # Константы для доступа к API Яндекса
-OAUTH_TOKEN = 'y0_AgAAAABkPR7rAATuwQAAAAEVj9mAAAC-u4PaUR9NOZyxg5y3p_bSOsC6ag'
-FOLDER_ID = 'b1gihcr2c5thnjujvrjm'
-API_URL = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
+
 
 # Переменные для хранения данных
 messages_history = {}
